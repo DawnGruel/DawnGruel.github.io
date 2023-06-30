@@ -2,9 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  base: './',
+  outDir: './blog',
+  title: "曦粥的博客",
   description: "A VitePress Site",
-  outDir: './dist',
+  
   themeConfig: {
     search: {
       provider: 'local'

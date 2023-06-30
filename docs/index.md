@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 执行计划
-      link: /docs/plan
+      link: ./plan
   #   - theme: alt
   #     text: API Examples
   #     link: /docs/api-examples
