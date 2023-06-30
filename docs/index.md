@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "DawnGruel"
+  text: ~~~
+  tagline: 还没想好！
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 执行计划
+      link: /docs/plan
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /docs/api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 前端知识
+    details: 收录各种前端知识的笔记
+  - title: 后端知识
+    details: 收录各种后端知识的笔记
+  - title: 笔记库
+    details: 记录其他文档的笔记仓库
 ---
 
