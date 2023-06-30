@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // base: '/',
   // base: '/',
-  outDir: './blog',
+  // outDir: './blog',
   title: "曦粥的博客",
   description: "A VitePress Site",
   themeConfig: {
