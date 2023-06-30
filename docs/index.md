@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 执行计划
-      link: ./plan
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /docs/api-examples
+      link: /markdown/plan
+    - theme: alt
+      text: 搭建自己的VitPress
+      link: /markdown/vitepress
 
 features:
   - title: 前端知识
