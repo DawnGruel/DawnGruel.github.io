@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: './',
-  base: '/',
+  base: '../blog',
+  // base: '/',
   outDir: './blog/',
   title: "曦粥的博客",
   description: "A VitePress Site",
