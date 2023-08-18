@@ -1,4 +1,8 @@
 ./node_modules
 node_modules
+<<<<<<< HEAD
 docs/cache
 docs/.vitepress/cache
+=======
+docs/cache
+>>>>>>> 2be0655b96ac83c31b25fafa7cc99e59d04f7f90
