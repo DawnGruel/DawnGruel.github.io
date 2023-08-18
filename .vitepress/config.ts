@@ -126,10 +126,9 @@ const sidebar = {
 export default defineConfig({
   lang: 'zh-cn',
   //@ts-ignore
-  base: process.env.NODE_ENV === 'production' ? '/blog' : '/', //线上环境需要解注释  目标全链：dawngruel.github.io/docs/blog/
+  base: process.env.NODE_ENV === 'production' ? '/blog/' : '/', //线上环境需要解注释  目标全链：dawngruel.github.io/docs/blog/
   outDir: './blog',
   srcDir: 'docs',
-  // assetsDir: '/blog/assets',
   head: [
     ['link', { rel: 'icon', href: '../favicon.ico' }],
   ],
