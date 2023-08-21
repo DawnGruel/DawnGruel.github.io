@@ -19,7 +19,7 @@ git commit -m "new file"
 
 # 如果部署到 https://<USERNAME>.github.io
 echo "推送到远程仓库..."
-git push -f git@github.com:dawngruel/dawngruel.github.io.git dev
+git push -f https://github.com/DawnGruel/DawnGruel.github.io.git dev
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<dawngruel>/<REPO>.git master:gh-pages
