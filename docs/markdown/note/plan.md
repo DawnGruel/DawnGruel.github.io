@@ -30,3 +30,13 @@
 
 ❌chatGPT  
 ❌MidJourney
+❌Claude2
+
+## 研发相关
+
+[Fury]
+bark
+
+
+
+[Fury]: https://www.furyio.org/zh
