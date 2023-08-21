@@ -5,19 +5,6 @@
 [Go中文文档](https://www.topgoer.com)  
 [Gin框架](https://www.topgoer.com/gin%E6%A1%86%E6%9E%B6/%E7%AE%80%E4%BB%8B.html)  
 
-## 相关插件
-
-### [Air使用指南]: 在**Go**语言开发中实现热重启，需要实现热重启.
-
-### [Grom]
-
-### [viper]: 一个完整的 Go 应用程序配置解决方案
-
-### [cobra]:CLI工具
-
-### [Makefile]:
-
-### [YAML]
 ## 关键字
 
 Go只有25个关键字
@@ -79,6 +66,3 @@ Go的程序是保存在多个.go文件中，文件的第一行就是package XXX�
 > go build examplepackage  
 > go test examplepackage  
 > go install examplepackage  
-
-[air使用指南]: ./air
-[viper]: https://github.com/spf13/viper#section-readme
