@@ -3,6 +3,11 @@
 # 忽略错误
 set -e
 
+dev() {
+  echo "开启本地环境..."
+  npm run docs:dev
+}
+
 build() {
     # 构建
     echo "开始构建..."
@@ -28,6 +33,9 @@ branch="${3:-dev}"
 case "$command" in
     "build")
         build
+        ;;
+    "dev")
+        dev
         ;;
     *)
         echo "Usage: $0 [build] [commit_message] [branch]"

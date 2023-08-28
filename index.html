@@ -16,7 +16,7 @@
   </div>
   <div class="content">
     <h1>DawnGruel</h1>
-    <a href="https://dawngruel.github.io/blog/">
+    <a id="homeUrl">
       <button class="button">点击前往博客主页</button>
     </a>
     <section id="text-value" style="margin-top: 10px;">
@@ -37,6 +37,8 @@
   // } else {
 
   // }
+  var urlstr = 'https://dawngruel.github.io/blog/'
+  document.getElementById("homeUrl").href = urlstr
   var timeout
-  timepiece()
+  timepiece(urlstr)
 </script>

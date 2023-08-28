@@ -92,6 +92,10 @@ const sidebar = {
       {
         text: 'Air使用指南',
         link: '/markdown/golang/air'
+      },
+      {
+        text: 'fmt使用指南',
+        link: '/markdown/golang/fmt'
       }
     ],
   }],

@@ -11,16 +11,6 @@
 ❌搭建部署第一个自己的Go服务  
 ❌go-captcha 行为验证码  
 
-
-### [Air使用指南]: 在**Go**语言开发中实现热重启，需要实现热重启.
-
-### [Grom]
-
-### [viper]: 一个完整的 Go 应用程序配置解决方案
-
-### [cobra]:CLI工具
-
-### [YAML] 配置管理
 ## ChatGPT接口对接与开发
 
 ❌搭建部署国内可访问的AI相关工具与软件  
@@ -61,7 +51,4 @@
 · 自定义命令： 除了上述用途，你还可以在 Makefile 中定义自己的自定义命令，以便快速执行一些特定的操作。  
 总之，Makefile 是一个灵活的工具，可以根据项目的需求实现各种自动化任务。无论是构建、测试、部署还是其他操作，Makefile 都可以帮助你提高效率，简化开发流程。  
 
-
-[air使用指南]: ../golang/air
-[viper]: https://github.com/spf13/viper#section-readme
 [Fury]: https://www.furyio.org/zh

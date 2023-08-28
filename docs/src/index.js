@@ -50,14 +50,16 @@ function checkagent() {
  * it redirects the user to a specific URL, otherwise it decreases the value by 1 and sets a timeout to
  * call itself again after 1 second.
  */
-function timepiece() {
+function timepiece(url) {
   var time = document.getElementById('time').innerText;
   if (time == 0) {
     clearTimeout(timeout)
     document.getElementById('text-value').innerText = '正在跳转...'
-    window.location.href = 'https://dawngruel.github.io/docs/blog/'
+    window.location.href = url
   } else {
     document.getElementById('time').innerText = time - 1
-    timeout = setTimeout("timepiece()", 1000)
+    timeout = setTimeout(function() {
+      timepiece(url)
+    }, 1000)
   }
 }
