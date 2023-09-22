@@ -464,6 +464,18 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 
 <<< @/markdown/vitepress/demo/index.ts#snippet{1}
 
+::: info
+  这里的使用关键在于
+  指定导入的文件中需要在你的代码段上下添加注释指令 以`#region 片段名称`开头，以`#endregion 片段名称`结尾
+  ```ts
+  // #region snippet
+  const a = function () {
+    '...'
+  }
+// #endregion snippet
+  ```
+:::
+
 您还可以在大括号{}内指定语言，如下所示：
 ```markdown
 <<< @/markdown/vitepress/demo/index.ts#snippet{TypeScript}

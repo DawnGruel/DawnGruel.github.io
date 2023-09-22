@@ -57,12 +57,20 @@ const sidebar = {
         link: '/markdown/golang/'
       },
       {
-        text: 'Go内置类型与函数',
+        text: 'Go基本结构和要素',
+        link: '/markdown/golang/structure_elements'
+      },
+      {
+        text: 'Go内置类型与内置函数',
         link: '/markdown/golang/built-in'
       },
       {
         text: 'Init和Main',
         link: '/markdown/golang/init&main'
+      },
+      {
+        text: '函数与类型',
+        link: '/markdown/golang/function&types'
       },
       {
         text: '运算符',
@@ -77,6 +85,10 @@ const sidebar = {
         link: '/markdown/golang/let&const'
       },
       {
+        text: '值类型和引用类型',
+        link: '/markdown/golang/value&reference_type'
+      },
+      {
         text: '基本类型',
         link: '/markdown/golang/baseType'
       },
@@ -84,6 +96,7 @@ const sidebar = {
         text: '数组Array',
         link: '/markdown/golang/array'
       },
+      
     ]
   },
   {
@@ -91,11 +104,23 @@ const sidebar = {
     items: [
       {
         text: 'Air使用指南',
-        link: '/markdown/golang/air'
+        link: '/markdown/golang/other/air'
       },
       {
         text: 'fmt使用指南',
-        link: '/markdown/golang/fmt'
+        link: '/markdown/golang/other/fmt'
+      },
+      {
+        text: 'OS使用指南',
+        link: '/markdown/golang/other/os'
+      },
+      {
+        text: 'Gin使用指南',
+        link: '/markdown/golang/other/gin'
+      },
+      {
+        text: 'yaml使用指南',
+        link: '/markdown/golang/other/yaml'
       }
     ],
   }],
