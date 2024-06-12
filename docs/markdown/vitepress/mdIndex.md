@@ -6,18 +6,20 @@
 
 ::: details 输入
 
-```
+```txt
  [[toc]]
 ```
 
 :::
-显示效果： 
+显示效果：
 [[toc]]
 
 ## 标题锚点、链接、图片
 
 链接：内部和外部链接都受到特殊处理
-### 标题 
+
+### 标题
+
 会自动应用关联链接
 ::: details 输入
 
@@ -30,7 +32,9 @@
 
 显示效果：  
   [单选复选框](#单选复选框)  
-  ## test {#单选复选框}
+
+## test {#单选复选框}
+
   vitepress经过改造可以适配异与标题的锚点
 
 ### 链接
@@ -53,11 +57,10 @@
 
 ::: details 输入
   
-
 ```markdown
   VitePress是使用vite的新的文档编辑工具,我们通过该工具搭建了 曦粥的博客[^1]
 
-  [^1]:https://DawnGruel.github.io
+  [^1]:<https://DawnGruel.github.io>
   ```
 
 :::
@@ -65,7 +68,7 @@
 显示效果：  
 VitePress是使用vite的新的文档编辑工具, 我们通过该工具搭建了 曦粥的博客[^1]
 
-[^1]:https://DawnGruel.github.io
+[^1]:<https://DawnGruel.github.io>
 
 ### 图片的展示
 
@@ -89,9 +92,9 @@ VitePress是使用vite的新的文档编辑工具, 我们通过该工具搭建�
 
 Markdown 可以使用以下几种字体：
 
-用1个 * 或 _ 表示斜体  
-用2个 * 或 _ 表示粗体  
-用3个 * 或 _ 表示粗斜体  
+用1个 `*` 或 `_` 表示斜体  
+用2个 `*` 或 `_` 表示粗体  
+用3个 `*` 或 `_` 表示粗斜体  
 
 ::: details 输入
 
@@ -163,11 +166,13 @@ Markdown 可以使用以下几种字体：
 ## 区块
 
 ::: details 输入
-```
+
+```txt
 > 区块引用  
 >> Markdown教程  
 >>> 学的不仅是技术更是梦想  
 ```
+
 :::
 显示效果：  
 > 区块引用  
@@ -187,26 +192,32 @@ Markdown 可以使用以下几种字体：
 ### 基础代码块
 
 ::: details 输入
-````
-  ```html
-<div>
-  <span>Hellow World</span>
-</div>
-```
-````
-:::
 
-显示效果： 
+````txt
 ```html
 <div>
   <span>Hellow World</span>
 </div>
 ```
+````
+
+:::
+
+显示效果：
+
+```html
+<div>
+  <span>Hellow World</span>
+</div>
+```
+
 ### 高级代码块语法
+
 想了解[高级代码块语法]👈点击前往
+
 ## 信息提示框
 
-用来醒目标志信息的提示框 
+用来醒目标志信息的提示框
 
 | 类型 | 参数 |
 |:--:|:--: |
@@ -217,8 +228,10 @@ Markdown 可以使用以下几种字体：
 | 细节 | details |
 
 ### 使用方法
+
 ::: details 输入
-```
+
+```txt
 ::: tip  
   tip 提示内容1  
 :::`
@@ -229,6 +242,7 @@ Markdown 可以使用以下几种字体：
 
  `<div class="tip custom-block" style="padding-top: 8px"> tip无标题</div>`
 ```
+
 复制使用时注意👆结尾的细节修正
 :::
 显示效果：
@@ -244,9 +258,10 @@ Markdown 可以使用以下几种字体：
 <div class="tip custom-block" style="padding-top: 8px"> tip无标题</div>
 
 ### 全部提示框
+
 ::: details 输入
 
-```
+```txt
 ::: info  
   This is an info box.  
 :::`  
@@ -255,7 +270,7 @@ Markdown 可以使用以下几种字体：
 This is a tip.  
 :::`  
 
-::: warning   
+::: warning
 This is a warning.  
 :::`  
 
@@ -271,6 +286,7 @@ This is a dangerous warning.
 :::`
 
 ```
+
 复制使用时注意👆结尾的细节修正
 :::
 
@@ -283,7 +299,7 @@ This is an info box.
 This is a tip.
 :::
 
-::: warning 
+::: warning
 This is a warning.
 :::
 
@@ -293,7 +309,6 @@ This is a dangerous warning.
 
 ::: details
   
-
 ```javascript  
   console.log('Hello, VitePress');
 ```
@@ -309,30 +324,33 @@ This is a dangerous warning.
 |:---:|:---|---:|---| 
 |内容|内容|内容|内容|
 ```
+
 :::
 
 显示效果：  
 
 |标题|标题|标题|标题|
-|:---:|:---|---:|---| 
+|:---:|:---|---:|---|
 |内容|内容|内容|内容|
 
 ### 对齐方式
 
-> 可以设置表头的对齐方式：  
-> * -: 设置内容或标题栏右对齐  
-> * :- 设置内容或标题栏左对齐  
-> * :-: 设置内容或标题栏居中对齐  
+> 可以设置表头的对齐方式:  
+> `-:` 设置内容或标题栏右对齐  
+> `:-` 设置内容或标题栏左对齐  
+> `:-:` 设置内容或标题栏居中对齐  
 
 ## 单选复选框
 
 ::: details 输入
+
 ```markdown
 <input type="checkbox" checked="true" disabled="true" />复选框已选中
 <input type="checkbox"  disabled="true" />复选框未选中
 <input type="radio" checked="true" disabled="true" />单选框已选中 
 <input type="radio"  disabled="true" />单选框未选中
 ```
+
 :::
 显示效果：
 
@@ -340,13 +358,15 @@ This is a dangerous warning.
 
 <input type="checkbox"  disabled="true" />复选框未选中
 
-<input type="radio" checked="true" disabled="true" />单选框已选中 
+<input type="radio" checked="true" disabled="true" />单选框已选中
 
 <input type="radio"  disabled="true" />单选框未选中
 
 ## badge(徽章)
+
 徽章可让您向标题添加状态。例如，指定节的类型或支持的版本可能很有用。
-::: details 输入 
+::: details 输入
+
 ```html
 info <Badge type="info" text="default" />  
 tip <Badge type="tip" text="^1.9.0" />  
@@ -354,6 +374,7 @@ warning <Badge type="warning" text="beta" />
 danger <Badge type="danger" text="caution" />  
 定制   <Badge type="info">可自定义内容</Badge>  
 ```
+
 :::
 显示效果：  
 
@@ -362,9 +383,11 @@ tip <Badge type="tip" text="^1.9.0" />
 warning <Badge type="warning" text="beta" />  
 danger <Badge type="danger" text="caution" />  
 定制   <Badge type="info">可自定义内容</Badge>  
+
 ## 模拟进度条
 
 ::: details 输入
+
 ```Html
 <div class="info custom-block" style="padding-top: 8px">
   <div style="background-color:rgba(82, 82, 89, 0.68); height:10px; border-radius:5px; width:100%"></div>
@@ -379,6 +402,7 @@ danger <Badge type="danger" text="caution" />
   <div style="background-color:#f43f5e; height:10px; border-radius:5px; width:50%; "></div>
 </div>
 ```
+
 :::
 
 显示效果：
@@ -404,7 +428,6 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 符号 | \\ | \` | \* | \_ | \{\} | \[\] | \(\) | \# | \+ | \- | \. | \! |
 
-
 ## 当前支持的开发语言
 
 [支持语言传送门]
@@ -414,6 +437,7 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 [emoji传送门]
 
 ## MarkDown文件包含
+
 你可以将一个 Markdown 文件包含在另一个 Markdown 文件中，甚至可以重写。
 ::: tip 提示
 您还可以在 markdown 路径前加上一个@，将会充当源根目录。默认情况下，它是 VitePress 项目根目录，无需srcDir配置。
@@ -431,6 +455,7 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 :::
 
 ## 导入代码片段
+
 您可以通过以下语法从现有文件导入代码片段：  
 
 输入：  `<<< ./demo/index.ts`
@@ -439,11 +464,7 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 
 <<< ./demo/index.ts
 
-还有支持行[突出显示]：
-
-```
-<<< @/filepath{highlightLines}
-```
+还有支持行[突出显示]：`<<< @/filepath{highlightLines}`
 
 输入：`<<< @/markdown/vitepress/demo/index.ts{2}`
 
@@ -467,6 +488,7 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 ::: info
   这里的使用关键在于
   指定导入的文件中需要在你的代码段上下添加注释指令 以`#region 片段名称`开头，以`#endregion 片段名称`结尾
+  
   ```ts
   // #region snippet
   const a = function () {
@@ -474,9 +496,11 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
   }
 // #endregion snippet
   ```
+
 :::
 
 您还可以在大括号{}内指定语言，如下所示：
+
 ```markdown
 <<< @/markdown/vitepress/demo/index.ts#snippet{TypeScript}
 <!-- with line highlighting: -->
@@ -484,12 +508,13 @@ Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符�
 <!-- with line numbers: -->
 <<< @/markdown/vitepress/demo/index.ts#snippet{2-3 TypeScript:line-numbers}
 ```
+
 如果无法从文件扩展名推断源语言，这将会很有帮助
 
 ::: details 输出代码片段
 
 <<< @/markdown/vitepress/demo/index.ts#snippet{TypeScript}
- 
+
  with line highlighting \{1,3 TypeScript\}
 
 <<< @/markdown/vitepress/demo/index.ts#snippet{1,3 TypeScript}
@@ -498,7 +523,6 @@ with no line numbers: \{2-3 TypeScript:no-line-numbers\}
 
 <<< @/markdown/vitepress/demo/index.ts#snippet{2-3 TypeScript:no-line-numbers}
 :::
-
 
 <!-- 页面脚注 -->
 [高级代码块语法]: ./mdCode.md

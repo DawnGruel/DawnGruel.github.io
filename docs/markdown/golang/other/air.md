@@ -19,6 +19,7 @@ vim ~/.zshrc
 在文件输入如下配置
 
 ```
+
 alias air='/Users/xxxx/go/bin/air'
 ```
 
@@ -123,4 +124,4 @@ air
 
 运行成功后显示如下内容
 
-![Air安装完成](../img/Air_Successful_installation.jpg)
+![Air安装完成](./other_img/Air_Successful_installation.jpg)

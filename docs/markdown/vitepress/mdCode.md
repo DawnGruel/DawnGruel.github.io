@@ -5,7 +5,7 @@
 您可以像这样对多个代码块进行分组：
 ::: details 输入
 
-````code
+````txt
 ::: code-group
 
 ```html[home.html]
@@ -53,7 +53,7 @@
 
 :::: details 输入
 
-````code
+````txt
 ```javascript{3}
 export default {
   data () {
@@ -87,7 +87,7 @@ export default {
 或者，可以使用// [!code hl]注释直接在行中突出显示。
 ::: details 输入
 
-````code
+````txt
 ```js{1,4,6-8}
 export default { // Highlighted
   data () {
@@ -132,7 +132,7 @@ export default { // Highlighted
 
 ::: details 输入
 
-````code
+````txt
 ```js
 export default {
   data () {
@@ -164,7 +164,7 @@ export default {
 在一行上添加注释 `// [!code --]` 或 `// [!code ++]` 将创建该行的差异，同时保留代码块的颜色。
 ::: details 输入
 
-````code
+````txt
 ```js
 export default {
   data () {
@@ -246,7 +246,7 @@ export default {
 标记以覆盖 config.ts 中设置的值。
 ::: details 输入
 
-````code
+````txt
 
 ```ts:line-numbers {1}
 // line-numbers

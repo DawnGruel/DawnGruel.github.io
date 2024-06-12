@@ -96,12 +96,16 @@ const sidebar = {
         text: '数组Array',
         link: '/markdown/golang/array'
       },
-      
+
     ]
   },
   {
     text: '相关文档',
     items: [
+      {
+        text: 'Makefile使用指南(未完待续)',
+        link: '/markdown/golang/other/makefile'
+      },
       {
         text: 'Air使用指南',
         link: '/markdown/golang/other/air'
@@ -161,7 +165,7 @@ export default defineConfig({
   // 本地缓存
   cacheDir: './.vitepress/.vite',
   // 忽略的文件
-  srcExclude:[],
+  srcExclude: [],
   // assetsInlineLimit: 20000,
   head: [
     ['link', { rel: 'icon', href: '../favicon.ico' }],
@@ -170,7 +174,8 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    html: true,
   },
   themeConfig: {
     nav,
