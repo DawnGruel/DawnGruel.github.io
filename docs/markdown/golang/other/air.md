@@ -18,8 +18,7 @@ vim ~/.zshrc
 
 在文件输入如下配置
 
-```
-
+```.zshrc
 alias air='/Users/xxxx/go/bin/air'
 ```
 
@@ -29,7 +28,6 @@ alias air='/Users/xxxx/go/bin/air'
 
 ::: details .air.conf配置内容
   
-
 ```sh
 
 # [Air](https://github.com/cosmtrek/air) TOML 格式的配置文件
@@ -116,9 +114,9 @@ clean_on_exit = true
 
 ## 使用
 
-在项目内执行如下命令，运行成功
+在项目根目录下执行如下命令，运行成功
 
-```sh
+```Shell
 air
 ```
 
