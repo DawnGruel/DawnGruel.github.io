@@ -4,6 +4,9 @@ layout: home
 <div class="home">
   <div class="avatar"><img src="./favicon.ico" alt="avatar" /></div>
   <div class="tagLine">DawnGruel</div>
+  <div class="imgBox">
+    <img src="./src/img/indexBg.webp" alt="home" />
+  </div>
 </div>
 
 <style>
@@ -39,9 +42,10 @@ layout: home
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
-img {
-  margin: 0 auto;
-  width: 750px;
-  /* height:400px; */
+.imgBox {
+  overflow: hidden;
+  width: 100%;
+  object-fit: contain; /* 保持图片比例，不拉伸 */
+  /* background: url("./src/img/indexBg.webp") center center / cover no-repeat rgb(34, 34, 34);; */
 }
 </style>
