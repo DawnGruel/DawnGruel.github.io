@@ -21,7 +21,7 @@ build() {
     echo "确认远程分支代码版本..."
     git pull
     echo "推送到远程仓库..."
-    git push -f https://github.com/DawnGruel/DawnGruel.github.io.git $branch
+    git push -f git@github.com:DawnGruel/DawnGruel.github.io.git $branch
     echo "推送完成."
     cd -
 }
