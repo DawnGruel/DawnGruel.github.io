@@ -14,21 +14,36 @@ const nav = [
   {
     text: '《互联万物志》',
     items: [
+      { text: 'AI知识', link: 'markdown/AI/' },
+      { text: '树莓派', link: 'markdown/RaspberryPi/' },
+      { text: '乐高', link: 'markdown/LEGO/' },
       { text: 'RetroArch', link: 'markdown/RetroArch/' },
       { text: 'Aseprite', link: 'markdown/gameDevelopment/Aseprite/' },
+
     ]
   },
   { text: '资料库', link: 'markdown/referenceRoom/index' },
 ]
 
 const sidebar = {
+  'markdown/AI/': [
+    {
+      text: 'AI视频提示词知识',
+      // collapsed: true,
+      items: [
+        { text: '主体+条件分布', link: '/markdown/AI/video_Subject_Condition_Distribution' },
+        { text: '景别+动作+场景', link: '/markdown/AI/video_ShotSize_Action_Scene' },
+        { text: '镜头视角+镜头运动+构图', link: '/markdown/AI/video_Perspective_Movement_Composition' },
+      ]
+    }
+  ],
   'markdown/note/': [
     {
       text: '笔记',
       // collapsed: true,
       items: [
-        { text: '执行计划', link: 'markdown/note/plan' },
-        { text: '局域网共享文件指南', link: 'markdown/note/shareFile' },
+        { text: '执行计划', link: '/markdown/note/plan' },
+        { text: '局域网共享文件指南', link: '/markdown/note/shareFile' },
       ]
     }
   ],
@@ -96,7 +111,6 @@ const sidebar = {
         text: '数组Array',
         link: '/markdown/golang/array'
       },
-
     ]
   },
   {
@@ -146,6 +160,10 @@ const sidebar = {
       {
         text: '资料库导航',
         link: '/markdown/referenceRoom/'
+      },
+      {
+        text: '产品经理知识',
+        link: '/markdown/pd_manager_knowledge/'
       },
       {
         text: '前端相关',

@@ -329,9 +329,10 @@ This is a dangerous warning.
 
 显示效果：  
 
-|标题|标题|标题|标题|
-|:---:|:---|---:|---|
-|内容|内容|内容|内容|
+| 标题 | 标题 | 标题 |标题 |
+| :---: | :--- | ---: | --- |
+| 内容 | 内容 | 内容 | 内容 |
+|  |  |  |  |
 
 ### 对齐方式
 
@@ -348,7 +349,7 @@ This is a dangerous warning.
 <input type="checkbox" checked="true" disabled="true" />复选框已选中
 <input type="checkbox"  disabled="true" />复选框未选中
 <input type="radio" checked="true" disabled="true" />单选框已选中 
-<input type="radio"  disabled="true" />单选框未选中
+<input type="radio" disabled="true" />单选框未选中
 ```
 
 :::
@@ -420,13 +421,22 @@ danger <Badge type="danger" text="caution" />
   <div style="background-color:#f43f5e; height:10px; border-radius:5px; width:50%; "></div>
 </div>
 
-## 符号
+## 符号&空格
 
 Mrkdown支持以下这些符号前面加上反斜杠`\`来帮助插入普通符号：
 
 | 描述 | 反斜线 |反引号|星号|下划线|花括号|方括号|小括号|井字号|加号|减号|英文句点|感叹号|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 符号 | \\ | \` | \* | \_ | \{\} | \[\] | \(\) | \# | \+ | \- | \. | \! |
+
+### 空格
+
+* 1、半角的空格(英文下使用):  
+`&ensp;` 或 `&#8194;`  
+* 2、全角的空格(中文下使用):  
+`&emsp;` 或 `&#8195;`  
+* 3、不断行的空格:  
+`&nbsp;` 或 `&#160;`
 
 ## 当前支持的开发语言
 
